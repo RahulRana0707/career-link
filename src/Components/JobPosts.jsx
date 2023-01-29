@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Cisco is Hiring",
+      url: "https://app.smartsheet.com/b/form/fe730bd197174dfc8645d454d026a0d8",
+      id:15,
+    },
+    {
       name: "KPGM is Hiring",
       url: "https://myrekruiter.space/form/kpgmhiring-2023-january25",
       id:1,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Zycus - Software Engineer",
       url: "https://zycus.skillate.com/jobs/43113",
       id:14,
-    },
-    {
-      name: "Infosys is Hiring",
-      url: "https://myrekruiter.space/form/infosyshiring-2023-december29",
-      id:15,
     },
   ];
   return (
