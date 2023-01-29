@@ -1,0 +1,13 @@
+@import "All.scss";
+
+footer {
+  width: 100vw;
+  background: var(--background1);
+  background: var(--background2);
+  background: var(--background3);
+  text-align: center;
+  h2 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+}

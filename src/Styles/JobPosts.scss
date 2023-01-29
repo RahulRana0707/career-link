@@ -1,0 +1,62 @@
+@import "All.scss";
+
+.jobs-post {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  a{
+    width:50%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: grid;
+    grid-template-columns: 95% 5%;
+    cursor: pointer;
+    transition: all 500ms ease;
+    h1{
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    b{
+        display: none;
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    &:hover{
+        scale: 1.1;
+        background: var(--background1);
+        background: var(--background2);
+        background: var(--background3);
+        b{
+            display: flex;
+        }
+    }
+  }
+}
+@media screen and (max-width:768px) {
+    .jobs-post{
+        a{
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width:460px) {
+    .jobs-post{
+        a{
+            h1{
+                font-size: .9rem;
+            }
+            b{
+                font-size: .9rem;
+            }
+        }
+    }
+}
