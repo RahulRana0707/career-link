@@ -52,7 +52,7 @@ const Heading = () => {
           </div>
           <div className="links">
             <a
-              href="https://www.instagram.com/__rahul___rana/"
+              href="https://www.instagram.com/linkyourcareer/"
               target={"__blank"}
             >
               <AiFillInstagram />

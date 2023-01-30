@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Micro Focus is hiring",
+      url: "https://jobs.microfocus.com/global/en/job/7028743/Quality-Engineer",
+      id:13,
+    },
+    {
       name: "KPMG is Hiring Analyst Technology",
       url: "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22000DY5",
       id:14,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "OKCL Hiring",
       url: "https://http://okcl.org/",
       id:12,
-    },
-    {
-      name: "Hexaware is Hiring",
-      url: "https://myrekruiter.space/form/hexawarehiring-2023-december30",
-      id:13,
     },
   ];
   return (
