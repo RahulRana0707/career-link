@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "KPMG is Hiring Analyst Technology",
+      url: "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22000DY5",
+      id:14,
+    },
+    {
       name: "Cisco is Hiring",
       url: "https://app.smartsheet.com/b/form/fe730bd197174dfc8645d454d026a0d8",
       id:15,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Hexaware is Hiring",
       url: "https://myrekruiter.space/form/hexawarehiring-2023-december30",
       id:13,
-    },
-    {
-      name: "Zycus - Software Engineer",
-      url: "https://zycus.skillate.com/jobs/43113",
-      id:14,
     },
   ];
   return (
