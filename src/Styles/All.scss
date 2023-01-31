@@ -1,33 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 :root {
-  --color-white: #fff;
   --color-info-dark: #7d8da1;
   --color-info-light: #dce1eb;
-  --color-dark: #363949;
+  --color-white: #202528;
+  --color-dark: #edeffd;
   --color-light: rgba(132, 139, 200, 0.1);
   --color-dark-variant: #677483;
   --color-background: #f6f6f9;
-  --background1: #00d2ff; /* fallback for old browsers */
-  --background2: -webkit-linear-gradient(
-    to right,
-    #928dab,
-    #00d2ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  --background3: linear-gradient(
-    to right,
-    #928dab,
-    #00d2ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  --box-shadow: 0 2rem 3rem var(--color-light);
-}
-.dark-theme-variables {
-  --color-background: #181a1e;
-  --color-white: #202528;
-  --color-dark: #edeffd;
-  --color-dark-variant: #a3bdcc;
-  --color-light: rgba(0, 0, 0, 0.4);
-  --box-shadow: 0 2rem 3rem var(--color-light);
   --background1: #000428; /* fallback for old browsers */
   --background2: -webkit-linear-gradient(
     to right,
@@ -39,6 +18,26 @@
     #004e92,
     #000428
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-dark: #363949;
+  --color-white: #fff;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --background1: #00d2ff; /* fallback for old browsers */
+  --background2: -webkit-linear-gradient(
+    to right,
+    #928dab,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  --background3: linear-gradient(
+    to right,
+    #928dab,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --box-shadow: 0 2rem 3rem var(--color-light);
 }
 * {
   margin: 0;
@@ -91,7 +90,7 @@ small {
   font-size: 0.75rem;
 }
 p {
-  color: var(--color-dark-variant);
+  color: var(--color-dark);
 }
 .profile-photo {
   width: 2.8rem;

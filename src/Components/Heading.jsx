@@ -7,7 +7,7 @@ import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import JobPosts from "./JobPosts";
 import Footer from "./Footer";
 const Heading = () => {
-  const [icon, setIcon] = useState(true);
+  const [icon, setIcon] = useState(false);
   const handleTheme = () => {
     setIcon((icon) => !icon);
     document.body.classList.toggle("dark-theme-variables");

@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Apple Is Hiring",
+      url: "https://jobs.apple.com/en-in/details/200314122/in-technical-specialist",
+      id:12,
+    },
+    {
       name: "Micro Focus is hiring",
       url: "https://jobs.microfocus.com/global/en/job/7028743/Quality-Engineer",
       id:13,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "IIT Madras - Internship Hiring",
       url: "https://rbcdsai.iitm.ac.in/",
       id:11,
-    },
-    {
-      name: "OKCL Hiring",
-      url: "https://http://okcl.org/",
-      id:12,
     },
   ];
   return (
