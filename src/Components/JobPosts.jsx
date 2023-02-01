@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Newgen Software is Hiring",
+      url: "https://www.firstnaukri.com/job-listings-data-scientist-fresher-opening-newgen-software-technologies-newgen-noida-0-to-2-years-230123911033?sid=16751703262431350_2&jobPosition=20&pageNo=2",
+      id:11,
+    },
+    {
       name: "Apple Is Hiring",
       url: "https://jobs.apple.com/en-in/details/200314122/in-technical-specialist",
       id:12,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Google - Software Engineer",
       url: "https://unstop.com/job/software-engineer-google-cloud-google-587357?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=Google15012023",
       id:10,
-    },
-    {
-      name: "IIT Madras - Internship Hiring",
-      url: "https://rbcdsai.iitm.ac.in/",
-      id:11,
     },
   ];
   return (
