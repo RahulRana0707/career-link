@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Loreal is Hiring",
+      url: "https://careers.loreal.com/en_US/jobs/JobDetail/141329",
+      id:10,
+    },
+    {
       name: "Newgen Software is Hiring",
       url: "https://www.firstnaukri.com/job-listings-data-scientist-fresher-opening-newgen-software-technologies-newgen-noida-0-to-2-years-230123911033?sid=16751703262431350_2&jobPosition=20&pageNo=2",
       id:11,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Siemens is Hiring",
       url: "https://myrekruiter.space/form/siemenshiring-2023-january6",
       id:9,
-    },
-    {
-      name: "Google - Software Engineer",
-      url: "https://unstop.com/job/software-engineer-google-cloud-google-587357?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=Google15012023",
-      id:10,
     },
   ];
   return (
