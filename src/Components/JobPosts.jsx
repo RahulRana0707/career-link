@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Genpact Is Hiring",
+      url: "https://genpact.taleo.net/careersection/sgy_external_career_section/jobdetail.ftl?job=BFS025950&tz=GMT-06%3A00&tzname=America%2FChicago&src=DS-11025",
+      id:9,
+    },
+    {
       name: "Loreal is Hiring",
       url: "https://careers.loreal.com/en_US/jobs/JobDetail/141329",
       id:10,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Qualcomm is Hiring",
       url: "https://myrekruiter.space/form/qualcommhiring-2023-january7",
       id:8,
-    },
-    {
-      name: "Siemens is Hiring",
-      url: "https://myrekruiter.space/form/siemenshiring-2023-january6",
-      id:9,
     },
   ];
   return (
