@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Relaince is Hiring",
+      url: "https://rcareers.ril.com/sap/bc/ui5_ui5/sap/ZJDESC_ERECAPP/index.html?sap-ui-language=EN&sap-ui-appcache=false&sap-theme=ZEREC_BASE@/sap/public/bc/themes/~client-449&tid=DJ&pid=AUxBQkNDQEVC",
+      id:8,
+    },
+    {
       name: "Genpact Is Hiring",
       url: "https://genpact.taleo.net/careersection/sgy_external_career_section/jobdetail.ftl?job=BFS025950&tz=GMT-06%3A00&tzname=America%2FChicago&src=DS-11025",
       id:9,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "IBM - system engineer",
       url: "https://unstop.com/job/software-engineer-nissan-motor-corporation-590508?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=Nissan26012023",
       id:7,
-    },
-    {
-      name: "Qualcomm is Hiring",
-      url: "https://myrekruiter.space/form/qualcommhiring-2023-january7",
-      id:8,
     },
   ];
   return (
