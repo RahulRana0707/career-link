@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "CarDekho Is Hiring",
+      url: "https://jobs.klimb.io/girnarsoft/63d3e20620df3c9805f506cf?source=careers",
+      id:7,
+    },
+    {
       name: "Relaince is Hiring",
       url: "https://rcareers.ril.com/sap/bc/ui5_ui5/sap/ZJDESC_ERECAPP/index.html?sap-ui-language=EN&sap-ui-appcache=false&sap-theme=ZEREC_BASE@/sap/public/bc/themes/~client-449&tid=DJ&pid=AUxBQkNDQEVC",
       id:8,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Nissan - Software Engineer",
       url: "https://unstop.com/job/software-engineer-nissan-motor-corporation-590508?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=Nissan26012023",
       id:6,
-    },
-    {
-      name: "IBM - system engineer",
-      url: "https://unstop.com/job/software-engineer-nissan-motor-corporation-590508?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=Nissan26012023",
-      id:7,
     },
   ];
   return (
