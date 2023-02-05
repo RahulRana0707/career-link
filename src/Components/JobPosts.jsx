@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "ASI - Software Intern",
+      url: "https://advancedstructures.in/careers/",
+      id:6,
+    },
+    {
       name: "CarDekho Is Hiring",
       url: "https://jobs.klimb.io/girnarsoft/63d3e20620df3c9805f506cf?source=careers",
       id:7,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "HPE - software engineer",
       url: "https://unstop.com/job/sw-engineer-systems-hewlett-packard-enterprise-595748?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=HPE27012023",
       id:5,
-    },
-    {
-      name: "Nissan - Software Engineer",
-      url: "https://unstop.com/job/software-engineer-nissan-motor-corporation-590508?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=Nissan26012023",
-      id:6,
     },
   ];
   return (
