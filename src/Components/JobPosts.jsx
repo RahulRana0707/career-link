@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Motorola - Software Engineer",
+      url: "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer_R35498?q=Software%20Engineer",
+      id:5,
+    },
+    {
       name: "ASI - Software Intern",
       url: "https://advancedstructures.in/careers/",
       id:6,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Citi - Jr Java Developer",
       url: "https://jobs9.com/jobs/junior-java-developer-9627871?utm_source=Insta_Jobseekersarena&utm_medium=Affiliate&utm_id=citi",
       id:4,
-    },
-    {
-      name: "HPE - software engineer",
-      url: "https://unstop.com/job/sw-engineer-systems-hewlett-packard-enterprise-595748?utm_source=Jobseekersarena-Instagram&utm_medium=Affiliates&utm_campaign=HPE27012023",
-      id:5,
     },
   ];
   return (
