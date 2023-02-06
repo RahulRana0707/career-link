@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Infosys - System Engineer",
+      url: "https://career.infosys.com/jobdesc?jobReferenceCode=PROGEN-External-144219&source=44003",
+      id:4,
+    },
+    {
       name: "Motorola - Software Engineer",
       url: "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Bangalore-India/Software-Engineer_R35498?q=Software%20Engineer",
       id:5,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "redBus is Hiring",
       url: "https://myrekruiter.space/form/redbushiring-2023-january25",
       id:3,
-    },
-    {
-      name: "Citi - Jr Java Developer",
-      url: "https://jobs9.com/jobs/junior-java-developer-9627871?utm_source=Insta_Jobseekersarena&utm_medium=Affiliate&utm_id=citi",
-      id:4,
     },
   ];
   return (
