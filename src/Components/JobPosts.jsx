@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Finastra - Associate Engineer",
+      url: "https://careers.finastra.com/jobs/7948",
+      id:3,
+    },
+    {
       name: "Infosys - System Engineer",
       url: "https://career.infosys.com/jobdesc?jobReferenceCode=PROGEN-External-144219&source=44003",
       id:4,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Enterpret is Hiring",
       url: "https://myrekruiter.space/form/enterprethiring-2023-january25",
       id:2,
-    },
-    {
-      name: "redBus is Hiring",
-      url: "https://myrekruiter.space/form/redbushiring-2023-january25",
-      id:3,
     },
   ];
   return (
