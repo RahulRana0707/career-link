@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "NatWest Hiring Java Intern",
+      url: "https://jobs.natwestgroup.com/jobs/11936206-natwest-accelerate-java-intern-6-months",
+      id:2,
+    },
+    {
       name: "Finastra - Associate Engineer",
       url: "https://careers.finastra.com/jobs/7948",
       id:3,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "KPGM is Hiring",
       url: "https://myrekruiter.space/form/kpgmhiring-2023-january25",
       id:1,
-    },
-    {
-      name: "Enterpret is Hiring",
-      url: "https://myrekruiter.space/form/enterprethiring-2023-january25",
-      id:2,
     },
   ];
   return (
