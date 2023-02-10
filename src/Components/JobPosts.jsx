@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Genpact Is Hiring",
+      url: "https://genpact.taleo.net/careersection/sgy_external_career_section/jobdetail.ftl?job=COR025315&tz=GMT-06%3A00&tzname=America%2FChicago&src=DS-11025",
+      id:15,
+    },
+    {
       name: "Anthology - Software Developer",
       url: "https://careers.anthology.com/jobs/12019499-associate-software-developer",
       id:1,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "KPMG is Hiring Analyst Technology",
       url: "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22000DY5",
       id:14,
-    },
-    {
-      name: "Cisco is Hiring",
-      url: "https://app.smartsheet.com/b/form/fe730bd197174dfc8645d454d026a0d8",
-      id:15,
     },
   ];
   return (
