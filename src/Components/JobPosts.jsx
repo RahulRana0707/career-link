@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Vestas Is Hiring",
+      url: "https://ejgk.fa.ehttps://careers.vestas.com/job/Chennai-Trainee-TN/901124301/m2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22000DY5",
+      id:14,
+    },
+    {
       name: "Genpact Is Hiring",
       url: "https://genpact.taleo.net/careersection/sgy_external_career_section/jobdetail.ftl?job=COR025315&tz=GMT-06%3A00&tzname=America%2FChicago&src=DS-11025",
       id:15,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Micro Focus is hiring",
       url: "https://jobs.microfocus.com/global/en/job/7028743/Quality-Engineer",
       id:13,
-    },
-    {
-      name: "KPMG is Hiring Analyst Technology",
-      url: "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22000DY5",
-      id:14,
     },
   ];
   return (
