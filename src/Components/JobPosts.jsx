@@ -6,7 +6,7 @@ const JobPosts = () => {
   const jobs = [
     {
       name: "Vestas Is Hiring",
-      url: "https://ejgk.fa.ehttps://careers.vestas.com/job/Chennai-Trainee-TN/901124301/m2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/22000DY5",
+      url: "https://careers.vestas.com/job/Chennai-Trainee-TN/901124301/",
       id:14,
     },
     {
