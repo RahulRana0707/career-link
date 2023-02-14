@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Paralleln Wireless is Hiring",
+      url: "https://jobs.lever.co/parallelwireless/d5392784-452b-4256-a1a1-80295828fd1a",
+      id:13,
+    },
+    {
       name: "Vestas Is Hiring",
       url: "https://careers.vestas.com/job/Chennai-Trainee-TN/901124301/",
       id:14,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Apple Is Hiring",
       url: "https://jobs.apple.com/en-in/details/200314122/in-technical-specialist",
       id:12,
-    },
-    {
-      name: "Micro Focus is hiring",
-      url: "https://jobs.microfocus.com/global/en/job/7028743/Quality-Engineer",
-      id:13,
     },
   ];
   return (
