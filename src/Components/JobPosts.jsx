@@ -5,6 +5,11 @@ import "../Styles/JobPosts.scss";
 const JobPosts = () => {
   const jobs = [
     {
+      name: "Riverbed Is Hiring",
+      url: "https://careers.riverbed.com/jobs/7137",
+      id:12,
+    },
+    {
       name: "Paralleln Wireless is Hiring",
       url: "https://jobs.lever.co/parallelwireless/d5392784-452b-4256-a1a1-80295828fd1a",
       id:13,
@@ -73,11 +78,6 @@ const JobPosts = () => {
       name: "Newgen Software is Hiring",
       url: "https://www.firstnaukri.com/job-listings-data-scientist-fresher-opening-newgen-software-technologies-newgen-noida-0-to-2-years-230123911033?sid=16751703262431350_2&jobPosition=20&pageNo=2",
       id:11,
-    },
-    {
-      name: "Apple Is Hiring",
-      url: "https://jobs.apple.com/en-in/details/200314122/in-technical-specialist",
-      id:12,
     },
   ];
   return (
